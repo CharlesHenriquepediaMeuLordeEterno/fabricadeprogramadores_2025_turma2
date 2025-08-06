@@ -42,14 +42,13 @@ def numeros_ímpares():
             print(x)
         x = x + 1
 numeros_ímpares()
-'''
-
 
 def arvore_de_natal():
     linha = 1
     while linha <=10:
         coluna = 1
         while coluna <= linha:
+            coluna = coluna + 1
             if linha %2 == 1:
                 print('👹', end="")
             else:
@@ -57,3 +56,4 @@ def arvore_de_natal():
         print()
         linha = linha + 1
 arvore_de_natal()
+'''
